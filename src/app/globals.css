@@ -6,6 +6,7 @@
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
   --font-mono: var(--font-mono);
+  --tracking-overline: 0.22em;
   --color-ink-900: #0a0a0a;
   --color-ink-800: #141414;
   --color-ink-700: #1a1a1a;
