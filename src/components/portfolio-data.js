@@ -4,9 +4,8 @@ export const PROFILE = {
   shortName: "Nischala Reddy",
   title: "Senior Product Manager & Data / AI Consultant",
   email: "nischalareddybujangari@gmail.com",
-  phone: "+1 (604) 805-7666",
   upwork: "https://www.upwork.com/freelancers/nischalareddy?mp_source=share",
-  linkedin: "https://www.linkedin.com/in/nischalareddy/",
+  linkedin: "https://www.linkedin.com/in/nischala-reddy-bujangari-a09176148/",
   resumeUrl:
     "https://customer-assets.emergentagent.com/job_189b2589-456b-4085-8992-0a10c2997e90/artifacts/xli2ffyw_Nischala%20R.pdf",
   photo:

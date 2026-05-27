@@ -683,13 +683,6 @@ function Contact() {
             >
               <Mail className="w-4 h-4 text-copper" /> {PROFILE.email}
             </a>
-            <a
-              href={`tel:${PROFILE.phone.replace(/\s|\(|\)|-/g, "")}`}
-              data-testid="contact-phone"
-              className="flex items-center gap-3 text-bone/80 hover:text-copper transition-colors"
-            >
-              <Phone className="w-4 h-4 text-copper" /> {PROFILE.phone}
-            </a>
             <p className="flex items-center gap-3 text-bone/60">
               <MapPin className="w-4 h-4 text-copper" /> {PROFILE.location}
             </p>
