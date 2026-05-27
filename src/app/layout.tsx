@@ -1,20 +1,26 @@
 import type { Metadata } from "next";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Geist, Outfit, Space_Mono } from "next/font/google";
 import { site } from "@/data/site";
 import "./globals.css";
 
-const inter = Inter({
+const outfit = Outfit({
   variable: "--font-sans",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
-const display = Instrument_Serif({
+const display = Geist({
   variable: "--font-serif",
   subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const mono = Space_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -58,9 +64,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${display.variable} h-full scroll-smooth`}
+      className={`${outfit.variable} ${display.variable} ${mono.variable} h-full scroll-smooth`}
     >
-      <body className="min-h-full bg-white text-slate-900 antialiased">
+      <body className="min-h-full bg-ink-900 text-bone antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
